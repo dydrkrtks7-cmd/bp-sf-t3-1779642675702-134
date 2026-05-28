@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화곡 셔츠룸 | 마포 힙플레이스 카페 - 정보</title>
+    <meta name="description" content="서울 마포구 힙플레이스 카페의 아이콘, 화곡 셔츠룸. 고급 셔츠 룸 서비스와 프리미엄 커피, 강렬한 브루탈리즘 공간이 당신을 기다린다. 전화 010-6279-0862.">
+    <meta name="keywords" content="화곡 셔츠룸, 마포 카페, 힙플레이스, 브루탈리즘 카페, 서울 셔츠룸, 마포구 셔츠룸, 힙한 카페">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <link rel="canonical" href="https://sf-t3-1779642675702-134.pages.dev/info">
+    <meta property="og:title" content="화곡 셔츠룸 | 마포 힙플레이스 카페 - 정보">
+    <meta property="og:description" content="서울 마포구 힙플레이스 카페의 아이콘, 화곡 셔츠룸. 셔츠 룸 서비스와 프리미엄 커피, 브루탈리즘 공간. 전화 010-6279-0862.">
+    <meta property="og:image" content="https://sf-t3-1779642675702-134.pages.dev/og-info.jpg">
+    <meta property="og:url" content="https://sf-t3-1779642675702-134.pages.dev/info">
+    <style>
+        /* RESET & BASE */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        /* FULL BLEED */
+        .full-bleed {
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+        }
+        /* TYPOGRAPHY */
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 900;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #ff0040;
+            text-shadow: 4px 4px 0 #000, 0 0 20px #ff0040;
+        }
+        h2 {
+            font-size: 2.2rem;
+            color: #ff6600;
+            border-left: 6px solid #ff6600;
+            padding-left: 1rem;
+            margin: 2rem 0 1rem;
+        }
+        h3 {
+            font-size: 1.6rem;
+            color: #cccccc;
+        }
+        p, li, a, span {
+            font-size: 1rem;
+            color: #bfbfbf;
+        }
+        strong {
+            color: #ffffff;
+            font-weight: 700;
+        }
+        a {
+            color: #ff6600;
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #ffaa00;
+        }
+        /* LAYOUT */
+        header {
+            background: #111111;
+            border-bottom: 3px solid #ff0040;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        nav ul li a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 0.8rem;
+            transition: background 0.2s;
+        }
+        nav ul li a:hover {
+            background: #ff0040;
+            color: #000;
+        }
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        footer {
+            background: #111111;
+            border-top: 3px solid #ff6600;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        footer p {
+            color: #666;
+            font-size: 0.85rem;
+        }
+        /* PATTERN: responsive-768 */
+        @media (max-width: 768px) {
+            header {
+                flex-wrap: wrap;
+            }
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+                width: 100%;
+                margin-top: 1rem;
+                display: none; /* hamburger-menu will toggle */
+            }
+            nav ul.open {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: block;
+                cursor: pointer;
+                font-size: 2rem;
+                color: #ffffff;
+            }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.6rem; }
+        }
+        @media (min-width: 769px) {
+            .hamburger-menu {
+                display: none;
+            }
+        }
+        /* PATTERN: hamburger-menu (simple) */
+        .hamburger-menu span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background: #ffffff;
+            margin: 6px 0;
+            transition: 0.3s;
+        }
+        /* CUSTOM SECTION STYLES */
+        .info-hero {
+            padding: 4rem 0 2rem;
+            border-bottom: 2px dashed #ff6600;
+        }
+        .info-hero h1 {
+            margin-bottom: 0.5rem;
+        }
+        .info-hero p {
+            font-size: 1.2rem;
+            color: #aaaaaa;
+        }
+        .info-block {
+            margin: 3rem 0;
+            padding: 1.5rem;
+            background: #161616;
+            border-left: 8px solid #ff0040;
+        }
+        .info-block h2 {
+            border-left: none;
+            margin-top: 0;
+        }
+        .info-block ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .info-block ul li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        .info-block ul li:last-child {
+            border-bottom: none;
+        }
+        .faq-item {
+            margin: 1.5rem 0;
+            padding: 1rem;
+            background: #1f1f1f;
+        }
+        .faq-item h3 {
+            color: #ff6600;
+            margin-bottom: 0.3rem;
+        }
+        .tel-link {
+            display: inline-block;
+            background: #ff0040;
+            color: #ffffff;
+            padding: 1rem 2rem;
+            font-size: 1.4rem;
+            font-weight: 900;
+            text-decoration: none;
+            margin-top: 1rem;
+            border: 2px solid #ff0040;
+            transition: background 0.2s, color 0.2s;
+        }
+        .tel-link:hover {
+            background: #000000;
+            color: #ff0040;
+        }
+        .brutalist-badge {
+            display: inline-block;
+            background: #222;
+            color: #ff6600;
+            padding: 0.3rem 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: 2px solid #ff6600;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">화곡 셔츠룸</div>
+        <div class="hamburger-menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
+            <span></span><span></span><span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">홈</a></li>
+                <li><a href="/about">소개</a></li>
+                <li><a href="/menu">메뉴</a></li>
+                <li><a href="/info">정보</a></li>
+                <li><a href="/contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: 정보 페이지 -->
+    <main>
+        <section class="info-hero">
+            <h1>화곡 셔츠룸<br>진짜 정보</h1>
+            <p>여기까지 왔으면 망설이지 마. 마포 힙플레이스의 중심, 브루탈리즘의 정수.</p>
+        </section>
+
+        <section class="info-block">
+            <h2>📍 위치 & 연락처</h2>
+            <ul>
+                <li><strong>주소:</strong> 서울 마포구 화곡동 123-45 (화곡역 3번 출구 도보 5분)</li>
+                <li><strong>전화:</strong> <a href="tel:01062790862">010-6279-0862</a> (바로 연결, 문자는 느림)</li>
+                <li><strong>네이버 지도:</strong> "화곡 셔츠룸" 검색하면 바로 나옴. 길 잃지 마.</li>
+                <li><strong>주차:</strong> 가게 앞 2대 가능. 빈자리 없으면 근처 공영주차장 이용 (도보 3분)</li>
+            </ul>
+        </section>
+
+        <section class="info-block">
+            <h2>🕐 영업시간</h2>
+            <ul>
+                <li><strong>평일:</strong> 11:00 – 23:00</li>
+                <li><strong>주말 & 공휴일:</strong> 11:00 – 01:00 (새벽 1시까지)</li>
+                <li><strong>쉬는 날:</strong> 없음. 우리는 쉬지 않음. 연중무휴.</li>
+            </ul>
+        </section>
+
+        <section class="info-block">
+            <h2>🤵 셔츠 룸 서비스</h2>
+            <ul>
+                <li><strong>와이셔츠 대여:</strong> 다양한 사이즈 & 스타일. 깔끔하게 다림질된 상태로 제공.</li>
+                <li><strong>보관 서비스:</strong> 자주 오는 사람은 전용 락커 제공. 묻지도 따지지도 않음.</li>
+                <li><strong>넥타이 & 액세서리:</strong> 기본으로 준비되어 있음. 취향 따라 골라.</li>
+                <li><span class="brutalist-badge">NEW</span> <strong>맞춤 셔츠:</strong> 예약 시 당일 제작 가능. (문의 필수)</li>
+            </ul>
+        </section>
+
+        <section class="info-block">
+            <h2>☕ 프리미엄 커피 & 공간</h2>
+            <ul>
+                <li><strong>시그니처 메뉴:</strong> 콘크리트 라떼, 브루탈리즘 에스프레소, 네온 스무디.</li>
+                <li><strong>공간:</strong> 철제 빔 + 노출 콘크리트 + 네온 사인. 인생샷 각 100%. 삼각대 가져와도 됨.</li>
+                <li><strong>좌석:</strong> 1인석, 2인석, 단체석 (최대 10인). 예약 권장함.</li>
+            </ul>
+        </section>
+
+        <section class="info-block">
+            <h2>❓ 자주 묻는 질문</h2>
+
+            <div class="faq-item">
+                <h3>Q: 셔츠룸인데 카페라고? 무슨 말이야?</h3>
+                <p>A: 우리는 컨셉을 밀고 가는 거야. 셔츠 대여 + 프리미엄 커피 + 브루탈리즘 공간. 설명이 더 필요해? 직접 와서 느껴.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q: 커피만 마셔도 되나요?</h3>
+                <p>A: 당연히 돼. 셔츠 안 빌려도 돼. 하지만 한 번 입어보면 중독될 걸.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q: 예약 어떻게 해요?</h3>
+</body>
+</html>
