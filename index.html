@@ -570,93 +570,77 @@
         </button>
     </header>
 
-    <!-- Mobile Navigation -->
-    <div class="mobile-nav" id="mobileNav">
-        <a href="#about" onclick="toggleMenu()">어바웃</a>
-        <a href="#reviews" onclick="toggleMenu()">리뷰</a>
-        <a href="#contact" onclick="toggleMenu()">콘택트</a>
-        <a href="tel:01062790862" onclick="toggleMenu()">010-6279-0862</a>
+<main>
+  <section class="hero full-bleed">
+    <h1>화곡 인근에서 힙플레이스를 찾는 기준</h1>
+    <p class="tagline">마포 권역의 카페 트렌드를 개념 위주로 정리해 둔 페이지다.</p>
+    <a class="cta" href="#contact">연락처 바로 보기</a>
+  </section>
+
+  <section>
+    <h2 class="section-title">“힙한 공간”을 가르는 기준</h2>
+    <p>흔히 힙플레이스로 불리는 공간은 특정 프랜차이즈나 규모보다, 공간 구성과 운영 방식에서 차이가 드러나는 경우가 많다.</p>
+    <ul>
+      <li>좌석 배치와 조명이 사진 촬영에 적합하게 구성되어 있는지</li>
+      <li>원두나 메뉴 구성에 자체적인 특징이 있는지</li>
+      <li>좌석 회전보다 체류 시간을 고려한 동선인지</li>
+      <li>온라인에서 자연스럽게 언급되는 요소가 있는지</li>
+      <li>시그니처로 내세우는 메뉴가 따로 있는지</li>
+      <li>공간 자체가 하나의 콘셉트로 통일되어 있는지</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">최근 카페 트렌드에서 반복적으로 보이는 요소</h2>
+    <p>최근 몇 년간 언급되는 카페 트렌드는 크게 몇 가지 흐름으로 정리할 수 있다.</p>
+    <ul>
+      <li>원산지나 로스팅 방식을 전면에 내세우는 스페셜티 원두 구성</li>
+      <li>매장 일부를 갤러리나 소품 전시 공간으로 함께 운영하는 방식</li>
+      <li>시즌별로 메뉴와 인테리어를 바꾸는 순환형 운영</li>
+      <li>포장·배달보다 매장 체류 경험에 무게를 두는 구성</li>
+      <li>반려동물 동반 가능 좌석을 별도로 구분해두는 매장</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">카페 유형별로 갈리는 특징</h2>
+    <ul>
+      <li><strong>스페셜티 원두 중심</strong> — 원산지와 로스팅 정보를 메뉴판에 함께 표기하는 경우가 많다.</li>
+      <li><strong>브런치 중심</strong> — 커피 외에 식사 메뉴 비중이 높아 체류 시간이 긴 편이다.</li>
+      <li><strong>디저트·베이커리 중심</strong> — 직접 굽는 메뉴를 전면에 내세우는 경우가 많다.</li>
+      <li><strong>갤러리 겸용 공간</strong> — 소품이나 작품 전시를 함께 운영해 사진 촬영 목적의 방문이 잦다.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">카페를 고를 때 살펴볼 목록</h2>
+    <ul>
+      <li>영업시간과 정기 휴무일을 사전에 확인했는지</li>
+      <li>좌석 예약이 필요한 곳인지</li>
+      <li>주차나 대중교통 접근성을 확인했는지</li>
+      <li>단체석이 필요한 경우 별도 문의가 필요한지</li>
+      <li>콘센트·좌석 형태가 방문 목적에 맞는지</li>
+      <li>반려동물 동반이 가능한지</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">방문 전 궁금한 점</h2>
+    <p><strong>Q. 힙플레이스와 일반 카페의 차이는 명확한가.</strong><br>공식적으로 정해진 기준이 있는 표현은 아니며, 공간 구성과 운영 방식에서 특징이 도드라질 때 통상적으로 그렇게 불리는 경우가 많다.</p>
+    <p><strong>Q. 예약 없이 방문해도 되나.</strong><br>매장별로 운영 방식이 달라, 방문 전 예약 필요 여부를 확인하는 편이 안전하다.</p>
+    <p><strong>Q. 사진 촬영이 자유로운 곳인지 어떻게 아나.</strong><br>매장마다 촬영 관련 안내가 다를 수 있어, 방문 전 확인하거나 현장 안내를 따르는 것이 안전하다.</p>
+  </section>
+
+  <section id="contact" class="contact-grid">
+    <div class="contact-card">
+      <h2 class="section-title">위치·연락 안내</h2>
+      <p>화곡을 포함한 마포 인근 정보를 함께 다루는 페이지이며, 정확한 위치와 영업 정보는 방문 전 아래 연락처로 확인하는 것을 권장한다.</p>
+      <a class="phone" href="tel:01062790862">01062790862</a>
+      <div class="map-placeholder">지도 영역 — 정확한 위치는 방문 전 별도 확인 권장</div>
     </div>
-
-    <main>
-        <!-- HERO -->
-        <section class="hero full-bleed">
-            <h1>화곡<br>셔츠룸</h1>
-            <div class="tagline">마포 힙플레이스의 정석</div>
-            <a class="cta" href="tel:01062790862">지금 전화 걸기</a>
-        </section>
-
-        <!-- ABOUT -->
-        <section id="about">
-            <div class="section-title">
-                <h2>👊 이게 카페다</h2>
-                <span>BRUTAL</span>
-            </div>
-            <p style="font-size:1.4rem; max-width: 900px; border-left: 6px solid #ff3b00; padding-left: 32px; margin-bottom: 48px;">
-                <strong>화곡 셔츠룸</strong>은 서울 마포구에 위치한 힙플레이스 카페입니다. 
-                고급 셔츠 룸 서비스를 기반으로 한 독특한 공간, 강렬한 브루탈리즘 인테리어, 
-                그리고 타협 없는 커피. 당신이 알던 모든 카페는 잊어라.
-            </p>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 48px; margin-top: 48px;">
-                <div style="border: 4px solid #ff3b00; padding: 36px; background: #0a0a0a; transform: rotate(-1deg);">
-                    <span style="font-size: 3rem;">🔥</span>
-                    <h3 style="margin-top: 16px;">RAW & REAL</h3>
-                    <p>가식 없는 공간, 가짜 감성은 없다. 우리는 규칙을 깬다.</p>
-                </div>
-                <div style="border: 4px solid #ffffff; padding: 36px; background: #0a0a0a; transform: rotate(1deg);">
-                    <span style="font-size: 3rem;">☕</span>
-                    <h3 style="margin-top: 16px;">프리미엄 셔츠 룸</h3>
-                    <p>단순한 카페가 아니다. 셔츠 룸의 정수를 보여준다.</p>
-                </div>
-                <div style="border: 4px solid #ff3b00; padding: 36px; background: #0a0a0a; transform: rotate(-0.5deg);">
-                    <span style="font-size: 3rem;">📍</span>
-                    <h3 style="margin-top: 16px;">마포 중심</h3>
-                    <p>힙플레이스의 진정한 의미를 마포에서 경험하라.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- REVIEWS (UGC) -->
-        <section id="reviews">
-            <div class="section-title">
-                <h2>🎤 솔직 리뷰</h2>
-                <span>5.0</span>
-            </div>
-            <div class="review-grid">
-                <div class="review
+  </section>
+</main>
 
 
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
-        <h3>포스트 메타정보포스트 기획 테마: 구체적 니치 콘텐츠 작성 - 다크소울 1편 출시 전 데모 버전에서만 존재했던 지역과 적 배치의 차이 백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라: 구글 틈새 키워드 트래픽 외환 거래 전략 ## 구체</h3>
-      </div>
-      <a href="posts/field_note-002-v6da3u.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">화곡 셔츠룸 솔직 후기 — 3개월 써본 사람의 리얼 리뷰</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">제목: 창작한 제목: "비너스 확장, 게임 밸런스 바ь? 데이터 분석에 숨겨진 비밀" 아, 진짜... 글룸헤이븐 1판 에라타의 비너스 확장을 테라포밍 마스의 게임 밸런스에 미치는 가장 강력한 영향을 분석해 보았습니다. ## 구체적 맥락 ### 룰 차이나와 전략 비교글룸</p>
-      </div>
-      <a href="posts/review-001-v6da3u.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
-</section>
 </body>
 </html>
