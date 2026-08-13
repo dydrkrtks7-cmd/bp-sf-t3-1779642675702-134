@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (1/2) · sf-t3-1779642675702-134</title>
+  <meta name="description" content="sf-t3-1779642675702-134에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://sf-t3-1779642675702-134.maphoshirts.com/posts.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ /* RESET & BASE */
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ font-size: 16px;
+ scroll-behavior: smooth;
+ }
+ body {
+ font-family: 'Helvetica Neue', Arial, sans-serif;
+ background: #0a0a0a;
+ color: #e0e0e0;
+ line-height: 1.6;
+ }
+ /* FULL BLEED */
+ .full-bleed {
+ width: 100vw;
+ margin-left: calc(-50vw + 50%);
+ }
+ /* TYPOGRAPHY */
+ h1, h2, h3 {
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ font-weight: 900;
+ }
+ h1 {
+ font-size: 3rem;
+ color: #ff0040;
+ text-shadow: 4px 4px 0 #000, 0 0 20px #ff0040;
+ }
+ h2 {
+ font-size: 2.2rem;
+ color: #ff6600;
+ border-left: 6px solid #ff6600;
+ padding-left: 1rem;
+ margin: 2rem 0 1rem;
+ }
+ h3 {
+ font-size: 1.6rem;
+ color: #cccccc;
+ }
+ p, li, a, span {
+ font-size: 1rem;
+ color: #bfbfbf;
+ }
+ strong {
+ color: #ffffff;
+ font-weight: 700;
+ }
+ a {
+ color: #ff6600;
+ text-decoration: underline;
+ transition: color 0.2s;
+ }
+ a:hover {
+ color: #ffaa00;
+ }
+ /* LAYOUT */
+ header {
+ background: #111111;
+ border-bottom: 3px solid #ff0040;
+ padding: 1rem 2rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+ header .logo {
+ font-size: 1.8rem;
+ font-weight: 900;
+ color: #ffffff;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+ }
+ nav ul {
+ list-style: none;
+ display: flex;
+ gap: 2rem;
+ }
+ nav ul li a {
+ color: #e0e0e0;
+ text-decoration: none;
+ font-weight: 600;
+ padding: 0.5rem 0.8rem;
+ transition: background 0.2s;
+ }
+ nav ul li a:hover {
+ background: #ff0040;
+ color: #000;
+ }
+ main {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 2rem;
+ }
+ footer {
+ background: #111111;
+ border-top: 3px solid #ff6600;
+ text-align: center;
+ padding: 2rem;
+ margin-top: 3rem;
+ }
+ footer p {
+ color: #666;
+ font-size: 0.85rem;
+ }
+ /* PATTERN: responsive-768 */
+ @media (max-width: 768px) {
+ header {
+ flex-wrap: wrap;
+ }
+ nav ul {
+ flex-direction: column;
+ gap: 0.5rem;
+ width: 100%;
+ margin-top: 1rem;
+ display: none; /* hamburger-menu will toggle */
+ }
+ nav ul.open {
+ display: flex;
+ }
+ .hamburger-menu {
+ display: block;
+ cursor: pointer;
+ font-size: 2rem;
+ color: #ffffff;
+ }
+ h1 { font-size: 2rem; }
+ h2 { font-size: 1.6rem; }
+ }
+ @media (min-width: 769px) {
+ .hamburger-menu {
+ display: none;
+ }
+ }
+ /* PATTERN: hamburger-menu (simple) */
+ .hamburger-menu span {
+ display: block;
+ width: 28px;
+ height: 3px;
+ background: #ffffff;
+ margin: 6px 0;
+ transition: 0.3s;
+ }
+ /* CUSTOM SECTION STYLES */
+ .info-hero {
+ padding: 4rem 0 2rem;
+ border-bottom: 2px dashed #ff6600;
+ }
+ .info-hero h1 {
+ margin-bottom: 0.5rem;
+ }
+ .info-hero p {
+ font-size: 1.2rem;
+ color: #aaaaaa;
+ }
+ .info-block {
+ margin: 3rem 0;
+ padding: 1.5rem;
+ background: #161616;
+ border-left: 8px solid #ff0040;
+ }
+ .info-block h2 {
+ border-left: none;
+ margin-top: 0;
+ }
+ .info-block ul {
+ list-style: none;
+ padding-left: 0;
+ }
+ .info-block ul li {
+ padding: 0.8rem 0;
+ border-bottom: 1px solid #2a2a2a;
+ }
+ .info-block ul li:last-child {
+ border-bottom: none;
+ }
+ .faq-item {
+ margin: 1.5rem 0;
+ padding: 1rem;
+ background: #1f1f1f;
+ }
+ .faq-item h3 {
+ color: #ff6600;
+ margin-bottom: 0.3rem;
+ }
+ .tel-link {
+ display: inline-block;
+ background: #ff0040;
+ color: #ffffff;
+ padding: 1rem 2rem;
+ font-size: 1.4rem;
+ font-weight: 900;
+ text-decoration: none;
+ margin-top: 1rem;
+ border: 2px solid #ff0040;
+ transition: background 0.2s, color 0.2s;
+ }
+ .tel-link:hover {
+ background: #000000;
+ color: #ff0040;
+ }
+ .brutalist-badge {
+ display: inline-block;
+ background: #222;
+ color: #ff6600;
+ padding: 0.3rem 1rem;
+ font-weight: 700;
+ text-transform: uppercase;
+ border: 2px solid #ff6600;
+ margin-right: 0.5rem;
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (1/2) · sf-t3-1779642675702-134">
+  <meta property="og:description" content="sf-t3-1779642675702-134에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://sf-t3-1779642675702-134.maphoshirts.com/posts.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="logo">화곡 셔츠룸</div>
+ <div class="hamburger-menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
+ 
+ </div>
+ <nav>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/about">소개</a></li>
+ <li><a href="/menu">메뉴</a></li>
+ <li><a href="/info">정보</a></li>
+ <li><a href="/contact">연락처</a></li>
+ </ul>
+ </nav>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 33개 · 1/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/field_note-002-v6da3u.html">화곡 셔츠룸</a>
+        <p class="post-item__summary">마포 지역은 최근 개성 넘치는 공간들이 밀집하며 젊은 층의 발길이 끊이지 않는 곳으로 자리 잡았습니다. 단순히 커피를 마시는 공간을 넘어 독특한 인테리어와 분위기를 갖춘 힙플레이스들이 인기를 끌면서</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-1389.html">화곡 셔츠룸 선택 전에 보는 마포 유흥 투명 정찰제 가격 정보 디렉토리 체크포인트</a>
+        <p class="post-item__summary">화곡 셔츠룸를 확인할 때 먼저 볼 부분은 화려한 문구가 아니라 실제로 비교 가능한 조건입니다. 마포 주변 정보는 비슷한 표현이 많아서, 어떤 기준으로 읽느냐에 따라 판단의 정확도가 크게 달라집니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-907.html">화곡 셔츠룸 현명한 선택을 위한 팁</a>
+        <p class="post-item__summary">지역 기반 서비스를 현명하게 이용하기 위해서는 신뢰성 높은 가이드가 필요합니다. 최근 주목받는 화곡 셔츠룸 분야 역시 소비자의 다양한 기대에 맞추어 빠르게 변화하며 새로운 기준을 정립해 나가고 있습</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0113.html">마포 힙플레이스 카페 즐기고 화곡 셔츠룸에서 리프레시</a>
+        <p class="post-item__summary">화곡 셔츠룸은 최근 마포 지역 힙플레이스 카페를 찾는 이들 사이에서 입소문을 타며 새로운 휴식 공간으로 주목받고 있다. 강서와 마포를 잇는 동선 위에 있어 방문객들의 발길이 꾸준히 이어지고 있으며,</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0114.html">화곡 셔츠룸: 마포의 힙한 숨은 공간</a>
+        <p class="post-item__summary">화곡 셔츠룸은 마포구 화곡동에 위치한 작은 힙플레이스 카페다. 도심 속 사치 없는 분위기가 팍팍 인상적이며, 고급스른 인테리어와 화려한 조명이 조화를 이룬다. 창가에 앉으면 지하철 배경과 회색빛이 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0115.html">화곡 셔츠룸과 힙플레이스 카페가 만든 새로운 문화</a>
+        <p class="post-item__summary">화곡 셔츠룸은 최근 힙플레이스 카페라는 새로운 콘셉트로 재탄생하며 지역 상권에 활기를 불어넣고 있다. 마포와 화곡 일대에서 젊은 층을 중심으로 입소문이 나면서 색다른 모임 공간으로 자리 잡았다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0116.html">마포 화곡 셔츠룸, 힙플레이스 카페가 전하는 새로운 분위기</a>
+        <p class="post-item__summary">화곡 셔츠룸은 마포의 한가운데에서 느낄 수 있는 힙플레이스 카페다. 인테리어는 빈티지 감성이 묻어나는 편안한 실내를 제공한다. 손님들은 다양한 DIY 워크숍과 음악 이벤트에 참여하며 시간을 보낸다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0117.html">화곡 셔츠룸, 마포 힙플레이스 카페 문화의 새로운 중심</a>
+        <p class="post-item__summary">최근 마포 지역에서는 힙플레이스 카페 문화가 빠르게 확산되며 새로운 트렌드로 자리잡고 있다. 그중에서도 화곡 셔츠룸은 감각적인 공간 연출과 독창적인 콘셉트로 많은 이들의 관심을 받고 있는 대표적인 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0118.html">힙플레이스 카페 화곡 셔츠룸, 도심 속 여유를 찾아</a>
+        <p class="post-item__summary">화곡에 자리 잡은 힙플레이스 카페 화곡 셔츠룸은 바쁜 일상 속에서도 편안한 공간을 제공한다. 넓은 창문을 통해 자연 채광이 들어오며, 아늑한 인테리어는 마치 친구와의 만남을 연상시킨다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0119.html">화곡 셔츠룸, 마포 힙플레이스 카페의 새로운 흐름</a>
+        <p class="post-item__summary">최근 마포 일대에서 화곡 셔츠룸이 힙플레이스 카페 콘셉트로 새로운 주목을 받고 있다. 기존의 무겁고 폐쇄적인 이미지에서 벗어나 오픈되고 감각적인 공간으로 탈바꿈한 것이 특징이다. 방문객들은 편안한 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0120.html">마포에서 시작되는 리듬, 화곡 셔츠룸</a>
+        <p class="post-item__summary">화곡 거리를 걷다 보면 아늑한 분위기의 카페가 눈에 들어온다. 바로 그곳이 화곡 셔츠룸으로, 힙플레이스 카페를 결합한 독특한 공간이다. 대화와 음악이 어우러져 방문객들의 편안함을 더한다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0121.html">화곡 셔츠룸 근처 힙플레이스 카페에서 색다른 분위기 즐기기</a>
+        <p class="post-item__summary">서울 마포 일대에서 독특한 경험을 찾는 이들이 늘면서, 힙플레이스 카페 개념의 공간들이 주목받고 있다. 특히 화곡 셔츠룸과 같은 프라이빗한 자리와 힙한 인테리어를 결합한 장소는 기존 유흥 공간의 공</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0122.html">마포의 힙플레이스 카페, 화곡 셔츠룸</a>
+        <p class="post-item__summary">화곡 셔츠룸은 마포의 중심에서 힙한 카페 문화와 편안한 분위기를 동시에 선사한다. 신선한 라떼와 지역 특산물을 활용한 디저트가 눈길을 끈다. 고객들은 한 줄 한 줄이 감각적으로 담긴 메뉴와 함께 여</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0123.html">화곡 셔룸 힙플레이스 카페, 마포에서 떠오르는 새로운 문화 공간</a>
+        <p class="post-item__summary">마포 지역에서 화곡 셔룸이 주목받는 이유는 독특한 콘셉트의 힙플레이스 카페들이 밀집해 있기 때문이다. 기존 유흥가와는 다른 감각적인 인테리어와 프라이빗한 공간 구성이 돋보이며, 젊은 층을 중심으로 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0124.html">마포에서 새로 떠오른 힙플레이스, 화곡 셔츠룸</a>
+        <p class="post-item__summary">마포에서 새로 문을 열은 힙플레이스, 화곡 셔츠룸은 아늑한 인테리어와 편안한 좌석으로 젊은 층의 눈길을 끌고 있다. 매장 내부는 심플하면서도 감각적인 디자인으로, 드넓은 창을 통해 자연광이 흐르는 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0125.html">요즘 마포에서 화곡 셔츠룸 감성을 품은 카페가 뜨는 이유</a>
+        <p class="post-item__summary">최근 마포 일대에서 힙플레이스 카페 열풍이 거세다. 특히 화곡 셔츠룸 특유의 감성을 재해석한 공간들이 새로운 핫플레이스로 떠오르고 있다. 기존 카페에서는 느낄 수 없었던 차별화된 분위기가 방문객들의</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0126.html">화곡 셔츠룸, 힙플레이스 카페에서 새로운 공간을 경험하다</a>
+        <p class="post-item__summary">화곡 셔츠룸은 마포의 젊은이들이 모이기 좋은 힙플레이스 카페다. 고풍스러운 셔츠와 빈티지 인테리어가 공간을 독특하게 꾸며준다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0127.html">요즘 화곡 셔츠룸 인기 비결, 마포 힙플레이스 카페 감성에 있다</a>
+        <p class="post-item__summary">최근 화곡 셔츠룸 업계에 새로운 변화의 흐름이 감지되고 있다. 기존의 정형화된 공간 구성에서 벗어나 마포 특유의 힙플레이스 카페 감성을 접목한 스타일이 속속 등장하는 추세다. 인테리어 디자인부터 서</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260706-0128.html">마포에서 만나는 화곡 셔츠룸, 여유를 더하는 힙플레이스</a>
+        <p class="post-item__summary">화곡에 위치한 화곡 셔츠룸은 독특한 인테리어와 편안한 분위기로 사람들을 끌어들인다. 스프링 트리와 차분한 색조가 어우러져, 사진 찍기 좋은 공간을 제공한다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0304.html">화곡 셔츠룸 위치로 보는 해당 사이트</a>
+        <p class="post-item__summary">도심 속 특정 장소를 찾을 때 접근성이 무엇보다 중요하듯, 웹사이트의 지수 성장을 관리할 때도 올바른 경로를 찾는 것이 중요합니다. 화곡 셔츠룸 정보를 찾는 이들이 위치와 주차 편의성을 먼저 확인하</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <span class="pager__current">1</span>
+      <a class="pager__link" href="posts-2.html">2</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
